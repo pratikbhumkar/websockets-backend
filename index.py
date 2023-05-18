@@ -14,5 +14,5 @@ def recv_message(message):
 
 
 if __name__ == '__main__':
-    socket.run(app,port=900)
+    socket.run(app,port=port)
     print(f'Socket.IO server running at http://localhost:{port}/')
